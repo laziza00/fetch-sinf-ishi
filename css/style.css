@@ -12,4 +12,32 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.container {
+  padding: 40px 0;
+  width: 100%;
+  min-width: 1400px;
+}
+.box__item {
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 30px 20px;
+}
+.form {
+  width: 45%;
+  margin: 0 20px ;
+}
+.form2 {
+  width: 45%;
+  margin: 0 20px ;
+}
+.form3 {
+  width: 30%;
+  margin: 0 20px ;
+}
+.d-none {
+  display: none;
+}
+.red {
+  background-color: red;
+}
